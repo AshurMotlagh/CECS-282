@@ -1,0 +1,4 @@
+K:\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "K:\Projects\Clion\CECS-282 2.0\Projects\SolitarePrime"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: K:/Projects/Clion/CECS-282 2.0/Projects/SolitarePrime/cmake-build-debug
