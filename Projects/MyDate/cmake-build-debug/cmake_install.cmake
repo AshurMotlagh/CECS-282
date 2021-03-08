@@ -1,4 +1,4 @@
-# Install script for directory: K:/Projects/Clion/CECS-282 2.0/Projects/MyDate
+# Install script for directory: K:/Projects/Clion/CECS-282/Projects/MyDate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

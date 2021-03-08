@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/myDate.cpp" "K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/CMakeFiles/MyDate.dir/myDate.cpp.obj"
-  "K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/testDate.cpp" "K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/CMakeFiles/MyDate.dir/testDate.cpp.obj"
+  "K:/Projects/Clion/CECS-282/Projects/MyDate/myDate.cpp" "K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/CMakeFiles/MyDate.dir/myDate.cpp.obj"
+  "K:/Projects/Clion/CECS-282/Projects/MyDate/testDate.cpp" "K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/CMakeFiles/MyDate.dir/testDate.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

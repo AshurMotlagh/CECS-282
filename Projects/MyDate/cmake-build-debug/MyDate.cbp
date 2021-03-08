@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug"/>
+				<Option working_dir="K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MyDate">
-				<Option output="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/MyDate.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug"/>
+				<Option output="K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/MyDate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyDate"/>
-					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyDate"/>
+					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MyDate/fast">
-				<Option output="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/MyDate.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug"/>
+				<Option output="K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/MyDate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,43 +53,43 @@
 					<Add directory="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyDate/fast"/>
-					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyDate/fast"/>
+					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug"/>
+				<Option working_dir="K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug"/>
+				<Option working_dir="K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/ProgramFiles/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;K:/Projects/Clion/CECS-282/Projects/MyDate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/myDate.cpp">
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MyDate/myDate.cpp">
 			<Option target="MyDate"/>
 		</Unit>
-		<Unit filename="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/myDate.h">
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MyDate/myDate.h">
 			<Option target="MyDate"/>
 		</Unit>
-		<Unit filename="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/testDate.cpp">
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MyDate/testDate.cpp">
 			<Option target="MyDate"/>
 		</Unit>
-		<Unit filename="K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/CMakeLists.txt">
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MyDate/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

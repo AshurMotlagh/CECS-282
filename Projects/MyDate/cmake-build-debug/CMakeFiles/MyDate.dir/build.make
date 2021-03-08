@@ -62,10 +62,10 @@ RM = K:\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate"
+CMAKE_SOURCE_DIR = K:\Projects\Clion\CECS-282\Projects\MyDate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\cmake-build-debug"
+CMAKE_BINARY_DIR = K:\Projects\Clion\CECS-282\Projects\MyDate\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyDate.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/MyDate.dir/flags.make
 
 CMakeFiles/MyDate.dir/myDate.cpp.obj: CMakeFiles/MyDate.dir/flags.make
 CMakeFiles/MyDate.dir/myDate.cpp.obj: ../myDate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyDate.dir/myDate.cpp.obj"
-	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyDate.dir\myDate.cpp.obj -c "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\myDate.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MyDate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyDate.dir/myDate.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyDate.dir\myDate.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MyDate\myDate.cpp
 
 CMakeFiles/MyDate.dir/myDate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyDate.dir/myDate.cpp.i"
-	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\myDate.cpp" > CMakeFiles\MyDate.dir\myDate.cpp.i
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MyDate\myDate.cpp > CMakeFiles\MyDate.dir\myDate.cpp.i
 
 CMakeFiles/MyDate.dir/myDate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyDate.dir/myDate.cpp.s"
-	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\myDate.cpp" -o CMakeFiles\MyDate.dir\myDate.cpp.s
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MyDate\myDate.cpp -o CMakeFiles\MyDate.dir\myDate.cpp.s
 
 CMakeFiles/MyDate.dir/testDate.cpp.obj: CMakeFiles/MyDate.dir/flags.make
 CMakeFiles/MyDate.dir/testDate.cpp.obj: ../testDate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyDate.dir/testDate.cpp.obj"
-	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyDate.dir\testDate.cpp.obj -c "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\testDate.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MyDate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyDate.dir/testDate.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyDate.dir\testDate.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MyDate\testDate.cpp
 
 CMakeFiles/MyDate.dir/testDate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyDate.dir/testDate.cpp.i"
-	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\testDate.cpp" > CMakeFiles\MyDate.dir\testDate.cpp.i
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MyDate\testDate.cpp > CMakeFiles\MyDate.dir\testDate.cpp.i
 
 CMakeFiles/MyDate.dir/testDate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyDate.dir/testDate.cpp.s"
-	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\testDate.cpp" -o CMakeFiles\MyDate.dir\testDate.cpp.s
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MyDate\testDate.cpp -o CMakeFiles\MyDate.dir\testDate.cpp.s
 
 # Object files for target MyDate
 MyDate_OBJECTS = \
@@ -116,7 +116,7 @@ MyDate.exe: CMakeFiles/MyDate.dir/build.make
 MyDate.exe: CMakeFiles/MyDate.dir/linklibs.rsp
 MyDate.exe: CMakeFiles/MyDate.dir/objects1.rsp
 MyDate.exe: CMakeFiles/MyDate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyDate.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=K:\Projects\Clion\CECS-282\Projects\MyDate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyDate.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyDate.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/MyDate.dir/clean:
 .PHONY : CMakeFiles/MyDate.dir/clean
 
 CMakeFiles/MyDate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate" "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate" "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\cmake-build-debug" "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\cmake-build-debug" "K:\Projects\Clion\CECS-282 2.0\Projects\MyDate\cmake-build-debug\CMakeFiles\MyDate.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" K:\Projects\Clion\CECS-282\Projects\MyDate K:\Projects\Clion\CECS-282\Projects\MyDate K:\Projects\Clion\CECS-282\Projects\MyDate\cmake-build-debug K:\Projects\Clion\CECS-282\Projects\MyDate\cmake-build-debug K:\Projects\Clion\CECS-282\Projects\MyDate\cmake-build-debug\CMakeFiles\MyDate.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MyDate.dir/depend
 

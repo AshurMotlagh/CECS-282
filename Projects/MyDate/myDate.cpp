@@ -32,22 +32,36 @@ void Julian2Greg(int JD, int &month, int &day, int &year) {
 }
 
 myDate::myDate() {
-    int month = 5;
-    int day = 11;
-    int year = 1959;
+    month = 5;
+    day = 11;
+    year = 1959;
 
 }
 
-myDate::myDate(int mon, int date, int years) {
-    month =mon;
-    day = date;
-    year = years;
+myDate::myDate(int m, int d, int y) {
+    month= m;
+    day = d;
+    year = y;
 
     if (month > 12 || day >31){
         month = 5;
         day = 11;
         year = 1959;
     }
+
+//    int tempMonth, tempDay, tempYear;
+//    int givenDate = Greg2Julian(m, d, y);
+//    Julian2Greg(givenDate, tempMonth, tempDay, tempYear);
+//
+//    if (tempMonth == m && tempDay == d && tempYear && y) {
+//        month = m;
+//        day = d;
+//        year = y;
+//    } else {
+//        month = 5;
+//        day = 11;
+//        year = 1959;
+//    }
 }
 
 void myDate::display() {
@@ -92,17 +106,18 @@ void myDate::display() {
         default: cout<<"    "; //default if not inbound
 
     }
+
 }
 
 void myDate::increaseDate(int x) {
     int incj = Greg2Julian(month, day, year);
-    incj +=x;
+    incj = incj + x;
     Julian2Greg(incj, month,day,year);
 }
 
 void myDate::decreaseDate(int x) {
     int decj = Greg2Julian(month, day, year);
-    decj +=x;
+    decj = decj - x;
     Julian2Greg(decj, month,day,year);
 
 }
@@ -170,4 +185,7 @@ string myDate::dayName() {
         day = "Sunday";
 
     return day;
+//    string days[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+//    int julianDate = Greg2Julian(month, day, year);
+//    return days[julianDate % 7];
 }

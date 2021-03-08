@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/myDate.h
-iostream
--
-
-K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/testDate.cpp
+K:/Projects/Clion/CECS-282/Projects/MyDate/myDate.cpp
 myDate.h
-K:/Projects/Clion/CECS-282 2.0/Projects/MyDate/myDate.h
+K:/Projects/Clion/CECS-282/Projects/MyDate/myDate.h
+
+K:/Projects/Clion/CECS-282/Projects/MyDate/myDate.h
 iostream
--
-cstdio
 -
 
