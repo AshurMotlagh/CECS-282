@@ -3,7 +3,6 @@
 #include <string>
 using namespace std;
 
-
 int Greg2Julian(int month, int day, int year) {
     int I = year;
     int J = month;
@@ -15,10 +14,12 @@ int Greg2Julian(int month, int day, int year) {
 }
 
 void Julian2Greg(int JD, int &month, int &day, int &year) {
-    int I, J, K, L, N;
+    int I;
+    int J;
+    int K;
 
-    L = JD + 68569;
-    N = 4 * L / 146097;
+    int L = JD + 68569;
+    int N = 4 * L / 146097;
     L = L - (146097 * N + 3) / 4;
     I = 4000 * (L + 1) / 1461001;
     L = L - 1461 * I / 4 + 31;
@@ -37,43 +38,91 @@ myDate::myDate() {
     month = 5;
     day = 11;
     year = 1959;
-}
-myDate::myDate(int m, int d, int y) {
-    int tempMonth, tempDay, tempYear;
-    int givenDate = Greg2Julian(m, d, y);
-    Julian2Greg(givenDate, tempMonth, tempDay, tempYear);
 
-    if (tempMonth == m && tempDay == d && tempYear && y) {
-        month = m;
-        day = d;
-        year = y;
-    } else {
+}
+
+myDate::myDate(int m, int d, int y) {
+    month= m;
+    day = d;
+    year = y;
+
+    if (month > 12 || day >31){
         month = 5;
         day = 11;
         year = 1959;
     }
+
+//    int tempMonth, tempDay, tempYear;
+//    int givenDate = Greg2Julian(m, d, y);
+//    Julian2Greg(givenDate, tempMonth, tempDay, tempYear);
+//
+//    if (tempMonth == m && tempDay == d && tempYear && y) {
+//        month = m;
+//        day = d;
+//        year = y;
+//    } else {
+//        month = 5;
+//        day = 11;
+//        year = 1959;
+//    }
 }
 
 void myDate::display() {
-    string months[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September",
-                         "October", "November", "December"};
-    cout<< months[month - 1] << " " << day << ", " << year;
+    switch (month) {
+
+        case 1: cout<<"January "<<day<<" "<<year;
+            break;
+
+        case 2: cout<<"February "<<day<<" "<<year;
+            break;
+
+        case 3: cout<<"March "<<day<<" "<<year;
+            break;
+
+        case 4: cout<<"April "<<day<<" "<<year;
+            break;
+
+        case 5: cout<<"May "<<day<<" "<<year;
+            break;
+
+        case 6: cout<<"June "<<day<<" "<<year;
+            break;
+
+        case 7: cout<<"July "<<day<<" "<<year;
+            break;
+
+        case 8: cout<<"August "<<day<<" "<<year;
+            break;
+
+        case 9: cout<<"September "<<day<<" "<<year;
+            break;
+
+        case 10: cout<<"October "<<day<<" "<<year;
+            break;
+
+        case 11: cout<<"November "<<day<<" "<<year;
+            break;
+
+        case 12: cout<<"December "<<day<<" "<<year;
+            break;
+
+        default: cout<<"    "; //default if not inbound
+
+    }
+
 }
 
-void myDate::increaseDate(int n) {
-    int after = Greg2Julian(month, day, year) + n;
-    Julian2Greg(after, month, day, year);
+void myDate::increaseDate(int x) {
+    int incj = Greg2Julian(month, day, year);
+    incj = incj + x;
+    Julian2Greg(incj, month,day,year);
 }
 
-void myDate::decreaseDate(int n) {
-    int converted = Greg2Julian(month, day, year) - n;
-    Julian2Greg(converted, month, day, year);
-}
+void myDate::decreaseDate(int x) {
+    int decj = Greg2Julian(month, day, year);
+    decj = decj - x;
+    Julian2Greg(decj, month,day,year);
 
-int myDate::daysBetween(myDate date) {
-    int second = Greg2Julian(date.getMonth(), date.getDay(), date.getYear());
-    int first = Greg2Julian(month, day, year);
-    return second - first;
 }
 
 int myDate::getMonth() {
@@ -88,14 +137,59 @@ int myDate::getYear() {
     return year;
 }
 
+int myDate::daysBetween(myDate D) {
+    int i = Greg2Julian(D.getMonth(), D.getDay(), D.getYear());
+    int j = Greg2Julian(month,day,year);
+    int dbetween = i - j;
+    return dbetween;
+}
+
 int myDate::dayOfYear() {
-    int beginning = Greg2Julian(1, 0, year);
-    int current = Greg2Julian(month, day, year);
-    return current - beginning;
+    int i = Greg2Julian(1,0,year);
+    int j = Greg2Julian(month, day, year);
+    int yearDay = j - i;
+    return yearDay;
 }
 
 string myDate::dayName() {
-    string days[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-    int julianDate = Greg2Julian(month, day, year);
-    return days[julianDate % 7];
+    int jul = Greg2Julian(month, day, year);
+    int date = jul % 7;
+    string day;
+
+//    switch (date){
+//        case 0:
+//            day = "Monday";
+//        case 1:
+//            day = "Tuesday";
+//        case 2:
+//            day = "Wednesday";
+//        case 3:
+//            day = "Thursday";
+//        case 4:
+//            day = "Friday";
+//        case 5:
+//            day = "Saturday";
+//        case 6:
+//            day = "Sunday";
+//    }
+    if (date == 0)
+        day = "Monday";
+    else if(date == 1)
+        day = "Tuesday";
+    else if(date ==2)
+        day = "Wednesday";
+    else if(date == 3)
+        day = "Thursday";
+    else if(date == 4)
+        day = "Friday";
+    else if(date == 5)
+        day = "Saturday";
+    else if(date == 6)
+        day = "Sunday";
+
+    return day;
+//    string days[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+//    int julianDate = Greg2Julian(month, day, year);
+//    return days[julianDate % 7];
 }
+
