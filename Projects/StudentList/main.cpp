@@ -1,3 +1,10 @@
+// Ashur Motlagh
+// CECS 282
+// Prog 3 - Student Struct
+// 3/9/2021
+// I certify that this program is my own original work. I did not copy any part of this program from
+// any other source. I further certify that I typed each and every line of code in this program.
+
 #include <iostream>
 #include "myDate.h"
 using namespace std;
@@ -22,9 +29,25 @@ void sortByName(Student stu){
 
 }
 
+void sortByID(Student stu){
+
+}
+
+void sortByGrade(Student stu){
+
+}
+
+void sortByBirthday(Student stu){
+
+}
+
+void sortByHomeTown(Student stu){
+
+}
+
 int menu(){
     int option;
-    cout<<("\nWelcome to Solitaire Prime! \n---------------------------- \n1. New Deck \n2. Display Deck \n3. Shuffle Deck \n4. Play Solitaire Prime \n5. Exit")<<endl;
+    cout<<("\n---------------------------- \n1. Sorted by Name \n2. Sorted by Student ID \n3. Sorted by Grade \n4. Sorted by Birthday \n5. Sorted by Home Town \n6. Exit")<<endl;
     cout<<("Please select the operation: ");
     cin>>option;
     cout<<("----------------------------")<<endl;
