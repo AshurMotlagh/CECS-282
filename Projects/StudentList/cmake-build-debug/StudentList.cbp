@@ -83,6 +83,12 @@
 		<Unit filename="K:/Projects/Clion/CECS-282/Projects/StudentList/main.cpp">
 			<Option target="StudentList"/>
 		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/StudentList/myDate.cpp">
+			<Option target="StudentList"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/StudentList/myDate.h">
+			<Option target="StudentList"/>
+		</Unit>
 		<Unit filename="K:/Projects/Clion/CECS-282/Projects/StudentList/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

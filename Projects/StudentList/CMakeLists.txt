@@ -3,4 +3,4 @@ project(StudentList)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(StudentList main.cpp)
+add_executable(StudentList main.cpp myDate.cpp myDate.h)

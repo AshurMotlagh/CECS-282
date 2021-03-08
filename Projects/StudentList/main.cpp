@@ -1,15 +1,26 @@
 #include <iostream>
+#include "myDate.h"
 using namespace std;
 
 struct Student{
-    string name;
+    char name[10];
     int studentID;
     char grade;
-    int birthday;
+    myDate birthday;
     string homeTown;
 };
 
+void populate(Student stu){
 
+}
+
+void display(Student stu){
+
+}
+
+void sortByName(Student stu){
+
+}
 
 int menu(){
     int option;

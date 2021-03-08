@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/StudentList.dir/main.cpp.obj"
+  "CMakeFiles/StudentList.dir/myDate.cpp.obj"
   "StudentList.exe"
   "StudentList.exe.manifest"
   "StudentList.pdb"
