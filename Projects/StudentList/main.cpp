@@ -6,6 +6,8 @@
 // any other source. I further certify that I typed each and every line of code in this program.
 
 #include <iostream>
+#include <cstdlib>
+#include <iomanip>
 #include "myDate.h"
 using namespace std;
 
@@ -17,31 +19,57 @@ struct Student{
     string homeTown;
 };
 
-void populate(Student stu){
+myDate birthday(){ // gives us a birthday random****
+    int randMon = rand() % 12 +1;
+    int randDay = rand() % 31 + 1;
+    int randYear = rand() % 11 + 1995;
+    myDate BDay(randMon,randDay,randYear);
+    return BDay;
+}
+
+//void bubbleSort(){
+//
+//}
+
+void populate(Student *stu){
+    string names[] = {"Ashur", "ashur2", "ashur3", "ashgur4", "ashur5", "ashur6", "ashur7", "ashur8", "ashur9", "ashur10"};
+    string home[] = {"home1","home2","home3","home4","home5","home6","home7","home8","home9","home10"};
+    char grades[] = {'A', 'B', 'C', 'D', 'F'};
+
+    srand(time(NULL));
+    for(int i =0; i < 10; i++){
+        int id = rand() %9000 + 1000;
+        int grade = rand() % 5;
+        int homeTown = rand() % 10;
+        stu -> grade = grade;
+        stu -> studentID = id;
+        stu -> homeTown = homeTown;
+        stu -> birthday = birthday();
+    }
 
 }
 
-void display(Student stu){
+void display(Student *stu){
 
 }
 
-void sortByName(Student stu){
+void sortByName(Student *stu){
 
 }
 
-void sortByID(Student stu){
+void sortByID(Student *stu){
 
 }
 
-void sortByGrade(Student stu){
+void sortByGrade(Student *stu){
 
 }
 
-void sortByBirthday(Student stu){
+void sortByBirthday(Student *stu){
 
 }
 
-void sortByHomeTown(Student stu){
+void sortByHomeTown(Student *stu){
 
 }
 
