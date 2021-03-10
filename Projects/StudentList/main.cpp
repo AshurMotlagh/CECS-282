@@ -13,7 +13,7 @@
 using namespace std;
 
 struct Student{
-    char name[20];
+    char name[1000000];
     int studentID;
     char grade;
     myDate birthday;
@@ -29,8 +29,8 @@ myDate birthday(){ // gives us a birthday random****
 }
 
 void populate(Student **stu){
-    string names[] = {"Ashur", "ashur2", "ashur3", "ashgur4", "ashur5", "ashur6", "ashur7", "ashur8", "ashur9", "ashur10"};
-    string home[] = {"home1","home2","home3","home4","home5","home6","home7","home8","home9","home10"};
+    string names[] = {"Ashur", "Randy", "Candi", "Mike", "Fiona", "Lip", "Liam", "Carl", "Ian", "Frank"};
+    string home[] = {"Fullerton","Long Beach","Chicago","Ontario","Moscow","Cypress","Garden","Orange","Anaheim","Laguna"};
     char grades[] = {'A', 'B', 'C', 'D', 'F'};
 
     srand(time(NULL));
@@ -50,10 +50,10 @@ void populate(Student **stu){
 }
 
 void display(Student **stu){
-    cout << setw(10) << left << "Name" << setw(15) << "Student ID" << setw(10) << "Grade" << setw(20) << "Birthday" << setw(20) << "Hometown" << endl;
-    cout << setw(10) << left << "_____" << setw(15) << "__________" << setw(10) << "_____" << setw(20) << "_________________" << setw(20) << "_________" << endl;
+    cout << setw(13) << left << "Name" << setw(18) << "Student ID" << setw(13) << "Grade" << setw(23) << "Birthday" << setw(23) << "Hometown" << endl;
+    cout << setw(13) << left << "_____" << setw(18) << "__________" << setw(13) << "_____" << setw(23) << "_________________" << setw(23) << "_________" << endl;
     for(int i = 0; i < 10; i++){
-        cout << setw(10) << left << stu[i]->name << setw(15) << stu[i]->studentID << setw(10) << stu[i]->grade << setw(20) << stu[i]->birthday.display2() << setw(20) << stu[i]->homeTown << endl;
+        cout << setw(13) << left << stu[i]->name << setw(18) << stu[i]->studentID << setw(13) << stu[i]->grade << setw(23) << stu[i]->birthday.display2() << setw(23) << stu[i]->homeTown << endl;
     }
     cout << endl;
 }
