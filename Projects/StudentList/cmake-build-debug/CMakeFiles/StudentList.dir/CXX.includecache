@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+K:/Projects/Clion/CECS-282/Projects/StudentList/main.cpp
+iostream
+-
+cstdlib
+-
+iomanip
+-
+myDate.h
+K:/Projects/Clion/CECS-282/Projects/StudentList/myDate.h
+cstring
+K:/Projects/Clion/CECS-282/Projects/StudentList/cstring
+
+K:/Projects/Clion/CECS-282/Projects/StudentList/myDate.h
+string
+K:/Projects/Clion/CECS-282/Projects/StudentList/string
+

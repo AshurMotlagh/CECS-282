@@ -109,8 +109,9 @@ void myDate::display() {
         default: cout<<"    "; //default if not inbound
 
     }
-
 }
+
+
 
 void myDate::increaseDate(int x) {
     int incj = Greg2Julian(month, day, year);
@@ -156,22 +157,6 @@ string myDate::dayName() {
     int date = jul % 7;
     string day;
 
-//    switch (date){
-//        case 0:
-//            day = "Monday";
-//        case 1:
-//            day = "Tuesday";
-//        case 2:
-//            day = "Wednesday";
-//        case 3:
-//            day = "Thursday";
-//        case 4:
-//            day = "Friday";
-//        case 5:
-//            day = "Saturday";
-//        case 6:
-//            day = "Sunday";
-//    }
     if (date == 0)
         day = "Monday";
     else if(date == 1)
@@ -188,8 +173,40 @@ string myDate::dayName() {
         day = "Sunday";
 
     return day;
-//    string days[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-//    int julianDate = Greg2Julian(month, day, year);
-//    return days[julianDate % 7];
 }
+//string myDate::display2() {
+//
+//    if (month == 0)
+//        return "January " + to_string(day) + ", " + to_string(year);
+//    else if(month == 1)
+//        return "February " + to_string(day) + ", " + to_string(year);
+//    else if(month ==2)
+//        return "March " + to_string(day) + ", " + to_string(year);
+//    else if(month == 3)
+//        return "April " + to_string(day) + ", " + to_string(year);
+//    else if(month == 4)
+//        return "May " + to_string(day) + ", " + to_string(year);
+//    else if(month == 5)
+//        return "June " + to_string(day) + ", " + to_string(year);
+//    else if(month == 6)
+//        return "July " + to_string(day) + ", " + to_string(year);
+//    else if(month == 7)
+//        return "August " + to_string(day) + ", " + to_string(year);
+//    else if(month ==8)
+//        return "September " + to_string(day) + ", " + to_string(year);
+//    else if(month == 9)
+//        return "October " + to_string(day) + ", " + to_string(year);
+//    else if(month == 10)
+//        return "November " + to_string(day) + ", " + to_string(year);
+//    else if(month == 11)
+//        return "December " + to_string(day) + ", " + to_string(year);
+////    else if(month == 12)
+////        day = "Sunday";
+//    return std::__cxx11::string();
+//}
 
+string myDate::display2() {
+    string months[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September",
+                         "October", "November", "December"};
+    return months[month - 1] + " " + to_string(day) + ", " + to_string(year);
+}

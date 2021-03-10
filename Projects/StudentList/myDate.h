@@ -1,6 +1,7 @@
 #ifndef STUDENTLIST_MYDATE_H
 #define STUDENTLIST_MYDATE_H
 
+#include "string"
 
 class myDate {
 private:
@@ -28,7 +29,9 @@ public:
 
     int dayOfYear();
 
-    string dayName();
+    std::string dayName();
+
+    std::string display2();
 };
 
 
