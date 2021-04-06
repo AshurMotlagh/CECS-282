@@ -67,10 +67,10 @@ RM = K:\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\Projects\Clion\CECS-282\Projects\StudentList
+CMAKE_SOURCE_DIR = K:\Projects\Clion\CECS-282\Projects\upDate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\Projects\Clion\CECS-282\Projects\StudentList\cmake-build-debug
+CMAKE_BINARY_DIR = K:\Projects\Clion\CECS-282\Projects\upDate\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\Projects\Clion\CECS-282\Projects\StudentList\cmake-build-debug\CMakeFiles K:\Projects\Clion\CECS-282\Projects\StudentList\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start K:\Projects\Clion\CECS-282\Projects\upDate\cmake-build-debug\CMakeFiles K:\Projects\Clion\CECS-282\Projects\upDate\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\Projects\Clion\CECS-282\Projects\StudentList\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start K:\Projects\Clion\CECS-282\Projects\upDate\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named StudentList
+# Target rules for targets named upDate
 
 # Build rule for target.
-StudentList: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StudentList
-.PHONY : StudentList
+upDate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 upDate
+.PHONY : upDate
 
 # fast build rule for target.
-StudentList/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/build
-.PHONY : StudentList/fast
+upDate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/build
+.PHONY : upDate/fast
 
 main.obj: main.cpp.obj
 
@@ -148,7 +148,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,35 +166,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-myDate.obj: myDate.cpp.obj
+upDate.obj: upDate.cpp.obj
 
-.PHONY : myDate.obj
+.PHONY : upDate.obj
 
 # target to build an object file
-myDate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/myDate.cpp.obj
-.PHONY : myDate.cpp.obj
+upDate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/upDate.cpp.obj
+.PHONY : upDate.cpp.obj
 
-myDate.i: myDate.cpp.i
+upDate.i: upDate.cpp.i
 
-.PHONY : myDate.i
+.PHONY : upDate.i
 
 # target to preprocess a source file
-myDate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/myDate.cpp.i
-.PHONY : myDate.cpp.i
+upDate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/upDate.cpp.i
+.PHONY : upDate.cpp.i
 
-myDate.s: myDate.cpp.s
+upDate.s: upDate.cpp.s
 
-.PHONY : myDate.s
+.PHONY : upDate.s
 
 # target to generate assembly for a file
-myDate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/myDate.cpp.s
-.PHONY : myDate.cpp.s
+upDate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/upDate.cpp.s
+.PHONY : upDate.cpp.s
 
 # Help Target
 help:
@@ -204,13 +204,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... StudentList
+	@echo ... upDate
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... myDate.obj
-	@echo ... myDate.i
-	@echo ... myDate.s
+	@echo ... upDate.obj
+	@echo ... upDate.i
+	@echo ... upDate.s
 .PHONY : help
 
 

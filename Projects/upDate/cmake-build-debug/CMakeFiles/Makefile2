@@ -63,16 +63,16 @@ RM = K:\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\Projects\Clion\CECS-282\Projects\StudentList
+CMAKE_SOURCE_DIR = K:\Projects\Clion\CECS-282\Projects\upDate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\Projects\Clion\CECS-282\Projects\StudentList\cmake-build-debug
+CMAKE_BINARY_DIR = K:\Projects\Clion\CECS-282\Projects\upDate\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/StudentList.dir/all
+all: CMakeFiles/upDate.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/StudentList.dir/clean
+clean: CMakeFiles/upDate.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/StudentList.dir
+# Target rules for target CMakeFiles/upDate.dir
 
 # All Build rule for target.
-CMakeFiles/StudentList.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\Projects\Clion\CECS-282\Projects\StudentList\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target StudentList"
-.PHONY : CMakeFiles/StudentList.dir/all
+CMakeFiles/upDate.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\Projects\Clion\CECS-282\Projects\upDate\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target upDate"
+.PHONY : CMakeFiles/upDate.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/StudentList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\Projects\Clion\CECS-282\Projects\StudentList\cmake-build-debug\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StudentList.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\Projects\Clion\CECS-282\Projects\StudentList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/StudentList.dir/rule
+CMakeFiles/upDate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start K:\Projects\Clion\CECS-282\Projects\upDate\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/upDate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start K:\Projects\Clion\CECS-282\Projects\upDate\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/upDate.dir/rule
 
 # Convenience name for target.
-StudentList: CMakeFiles/StudentList.dir/rule
+upDate: CMakeFiles/upDate.dir/rule
 
-.PHONY : StudentList
+.PHONY : upDate
 
 # clean rule for target.
-CMakeFiles/StudentList.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentList.dir\build.make CMakeFiles/StudentList.dir/clean
-.PHONY : CMakeFiles/StudentList.dir/clean
+CMakeFiles/upDate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\upDate.dir\build.make CMakeFiles/upDate.dir/clean
+.PHONY : CMakeFiles/upDate.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
