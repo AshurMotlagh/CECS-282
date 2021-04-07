@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+K:/Projects/Clion/CECS-282/Projects/upDate/upDate.cpp
+upDate.h
+K:/Projects/Clion/CECS-282/Projects/upDate/upDate.h
+
+K:/Projects/Clion/CECS-282/Projects/upDate/upDate.h
+string
+K:/Projects/Clion/CECS-282/Projects/upDate/string
+iostream
+-
+
