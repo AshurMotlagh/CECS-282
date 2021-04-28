@@ -1,3 +1,10 @@
+// Ashur Motlagh
+// CECS 282-05
+// Prog 5 – STL GoldRabbits
+// 4/27/2021
+// I certify that this program is my own original work. I did not copy any part of this program from
+// any other source. I further certify that I typed each and every line of code in this program.
+
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -197,7 +204,7 @@ private:
 
 int goldRabbits(int n){
     if(n == 0 || n == 1){
-        return 1;
+        return n;
     }
     else{
         int result = goldRabbits(n - 1) + goldRabbits(n - 2);
@@ -226,7 +233,7 @@ BigInt goldRabbits(BigInt n) { // recursion using BIgINt
 }
 
 void pause(){
-    cout << "Press Enter to continue..."<<endl;
+    cout << "\nPress Enter to continue..."<<endl;
     getchar();
 }
 
