@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+K:/Projects/Clion/CECS-282/Projects/STL/main.cpp
+vector
+-
+iostream
+-
+algorithm
+-
+map
+-
+
