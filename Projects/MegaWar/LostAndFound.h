@@ -1,13 +1,17 @@
-//
-// Created by ashur on 5/2/2021.
-//
-
 #ifndef MEGAWAR_LOSTANDFOUND_H
 #define MEGAWAR_LOSTANDFOUND_H
 
+#include <stdio.h>
+#include "CardPile.h"
 
 class LostAndFound {
-
+public:
+    void addCard(Card card);
+    Card removeCard();
+    void display();
+    int LostAndFoundPileSize();
+    int pileSize();
+    Card deal();
 };
 
 
