@@ -88,19 +88,124 @@ CMakeFiles/MegaWar.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MegaWar.dir/main.cpp.s"
 	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MegaWar\main.cpp -o CMakeFiles\MegaWar.dir\main.cpp.s
 
+CMakeFiles/MegaWar.dir/Card.cpp.obj: CMakeFiles/MegaWar.dir/flags.make
+CMakeFiles/MegaWar.dir/Card.cpp.obj: ../Card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MegaWar.dir/Card.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MegaWar.dir\Card.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MegaWar\Card.cpp
+
+CMakeFiles/MegaWar.dir/Card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MegaWar.dir/Card.cpp.i"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MegaWar\Card.cpp > CMakeFiles\MegaWar.dir\Card.cpp.i
+
+CMakeFiles/MegaWar.dir/Card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MegaWar.dir/Card.cpp.s"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MegaWar\Card.cpp -o CMakeFiles\MegaWar.dir\Card.cpp.s
+
+CMakeFiles/MegaWar.dir/Deck.cpp.obj: CMakeFiles/MegaWar.dir/flags.make
+CMakeFiles/MegaWar.dir/Deck.cpp.obj: ../Deck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MegaWar.dir/Deck.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MegaWar.dir\Deck.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MegaWar\Deck.cpp
+
+CMakeFiles/MegaWar.dir/Deck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MegaWar.dir/Deck.cpp.i"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MegaWar\Deck.cpp > CMakeFiles\MegaWar.dir\Deck.cpp.i
+
+CMakeFiles/MegaWar.dir/Deck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MegaWar.dir/Deck.cpp.s"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MegaWar\Deck.cpp -o CMakeFiles\MegaWar.dir\Deck.cpp.s
+
+CMakeFiles/MegaWar.dir/CardPile.cpp.obj: CMakeFiles/MegaWar.dir/flags.make
+CMakeFiles/MegaWar.dir/CardPile.cpp.obj: ../CardPile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MegaWar.dir/CardPile.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MegaWar.dir\CardPile.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MegaWar\CardPile.cpp
+
+CMakeFiles/MegaWar.dir/CardPile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MegaWar.dir/CardPile.cpp.i"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MegaWar\CardPile.cpp > CMakeFiles\MegaWar.dir\CardPile.cpp.i
+
+CMakeFiles/MegaWar.dir/CardPile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MegaWar.dir/CardPile.cpp.s"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MegaWar\CardPile.cpp -o CMakeFiles\MegaWar.dir\CardPile.cpp.s
+
+CMakeFiles/MegaWar.dir/LostAndFound.cpp.obj: CMakeFiles/MegaWar.dir/flags.make
+CMakeFiles/MegaWar.dir/LostAndFound.cpp.obj: ../LostAndFound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MegaWar.dir/LostAndFound.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MegaWar.dir\LostAndFound.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MegaWar\LostAndFound.cpp
+
+CMakeFiles/MegaWar.dir/LostAndFound.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MegaWar.dir/LostAndFound.cpp.i"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MegaWar\LostAndFound.cpp > CMakeFiles\MegaWar.dir\LostAndFound.cpp.i
+
+CMakeFiles/MegaWar.dir/LostAndFound.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MegaWar.dir/LostAndFound.cpp.s"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MegaWar\LostAndFound.cpp -o CMakeFiles\MegaWar.dir\LostAndFound.cpp.s
+
+CMakeFiles/MegaWar.dir/MegaDeck.cpp.obj: CMakeFiles/MegaWar.dir/flags.make
+CMakeFiles/MegaWar.dir/MegaDeck.cpp.obj: ../MegaDeck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MegaWar.dir/MegaDeck.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MegaWar.dir\MegaDeck.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MegaWar\MegaDeck.cpp
+
+CMakeFiles/MegaWar.dir/MegaDeck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MegaWar.dir/MegaDeck.cpp.i"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MegaWar\MegaDeck.cpp > CMakeFiles\MegaWar.dir\MegaDeck.cpp.i
+
+CMakeFiles/MegaWar.dir/MegaDeck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MegaWar.dir/MegaDeck.cpp.s"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MegaWar\MegaDeck.cpp -o CMakeFiles\MegaWar.dir\MegaDeck.cpp.s
+
+CMakeFiles/MegaWar.dir/Player.cpp.obj: CMakeFiles/MegaWar.dir/flags.make
+CMakeFiles/MegaWar.dir/Player.cpp.obj: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MegaWar.dir/Player.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MegaWar.dir\Player.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MegaWar\Player.cpp
+
+CMakeFiles/MegaWar.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MegaWar.dir/Player.cpp.i"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MegaWar\Player.cpp > CMakeFiles\MegaWar.dir\Player.cpp.i
+
+CMakeFiles/MegaWar.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MegaWar.dir/Player.cpp.s"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MegaWar\Player.cpp -o CMakeFiles\MegaWar.dir\Player.cpp.s
+
+CMakeFiles/MegaWar.dir/WarPile.cpp.obj: CMakeFiles/MegaWar.dir/flags.make
+CMakeFiles/MegaWar.dir/WarPile.cpp.obj: ../WarPile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MegaWar.dir/WarPile.cpp.obj"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MegaWar.dir\WarPile.cpp.obj -c K:\Projects\Clion\CECS-282\Projects\MegaWar\WarPile.cpp
+
+CMakeFiles/MegaWar.dir/WarPile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MegaWar.dir/WarPile.cpp.i"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E K:\Projects\Clion\CECS-282\Projects\MegaWar\WarPile.cpp > CMakeFiles\MegaWar.dir\WarPile.cpp.i
+
+CMakeFiles/MegaWar.dir/WarPile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MegaWar.dir/WarPile.cpp.s"
+	K:\ProgramFiles\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S K:\Projects\Clion\CECS-282\Projects\MegaWar\WarPile.cpp -o CMakeFiles\MegaWar.dir\WarPile.cpp.s
+
 # Object files for target MegaWar
 MegaWar_OBJECTS = \
-"CMakeFiles/MegaWar.dir/main.cpp.obj"
+"CMakeFiles/MegaWar.dir/main.cpp.obj" \
+"CMakeFiles/MegaWar.dir/Card.cpp.obj" \
+"CMakeFiles/MegaWar.dir/Deck.cpp.obj" \
+"CMakeFiles/MegaWar.dir/CardPile.cpp.obj" \
+"CMakeFiles/MegaWar.dir/LostAndFound.cpp.obj" \
+"CMakeFiles/MegaWar.dir/MegaDeck.cpp.obj" \
+"CMakeFiles/MegaWar.dir/Player.cpp.obj" \
+"CMakeFiles/MegaWar.dir/WarPile.cpp.obj"
 
 # External object files for target MegaWar
 MegaWar_EXTERNAL_OBJECTS =
 
 MegaWar.exe: CMakeFiles/MegaWar.dir/main.cpp.obj
+MegaWar.exe: CMakeFiles/MegaWar.dir/Card.cpp.obj
+MegaWar.exe: CMakeFiles/MegaWar.dir/Deck.cpp.obj
+MegaWar.exe: CMakeFiles/MegaWar.dir/CardPile.cpp.obj
+MegaWar.exe: CMakeFiles/MegaWar.dir/LostAndFound.cpp.obj
+MegaWar.exe: CMakeFiles/MegaWar.dir/MegaDeck.cpp.obj
+MegaWar.exe: CMakeFiles/MegaWar.dir/Player.cpp.obj
+MegaWar.exe: CMakeFiles/MegaWar.dir/WarPile.cpp.obj
 MegaWar.exe: CMakeFiles/MegaWar.dir/build.make
 MegaWar.exe: CMakeFiles/MegaWar.dir/linklibs.rsp
 MegaWar.exe: CMakeFiles/MegaWar.dir/objects1.rsp
 MegaWar.exe: CMakeFiles/MegaWar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MegaWar.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=K:\Projects\Clion\CECS-282\Projects\MegaWar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable MegaWar.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MegaWar.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

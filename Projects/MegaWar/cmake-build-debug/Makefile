@@ -141,6 +141,195 @@ MegaWar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/build
 .PHONY : MegaWar/fast
 
+Card.obj: Card.cpp.obj
+
+.PHONY : Card.obj
+
+# target to build an object file
+Card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Card.cpp.obj
+.PHONY : Card.cpp.obj
+
+Card.i: Card.cpp.i
+
+.PHONY : Card.i
+
+# target to preprocess a source file
+Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Card.cpp.i
+.PHONY : Card.cpp.i
+
+Card.s: Card.cpp.s
+
+.PHONY : Card.s
+
+# target to generate assembly for a file
+Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Card.cpp.s
+.PHONY : Card.cpp.s
+
+CardPile.obj: CardPile.cpp.obj
+
+.PHONY : CardPile.obj
+
+# target to build an object file
+CardPile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/CardPile.cpp.obj
+.PHONY : CardPile.cpp.obj
+
+CardPile.i: CardPile.cpp.i
+
+.PHONY : CardPile.i
+
+# target to preprocess a source file
+CardPile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/CardPile.cpp.i
+.PHONY : CardPile.cpp.i
+
+CardPile.s: CardPile.cpp.s
+
+.PHONY : CardPile.s
+
+# target to generate assembly for a file
+CardPile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/CardPile.cpp.s
+.PHONY : CardPile.cpp.s
+
+Deck.obj: Deck.cpp.obj
+
+.PHONY : Deck.obj
+
+# target to build an object file
+Deck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Deck.cpp.obj
+.PHONY : Deck.cpp.obj
+
+Deck.i: Deck.cpp.i
+
+.PHONY : Deck.i
+
+# target to preprocess a source file
+Deck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Deck.cpp.i
+.PHONY : Deck.cpp.i
+
+Deck.s: Deck.cpp.s
+
+.PHONY : Deck.s
+
+# target to generate assembly for a file
+Deck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Deck.cpp.s
+.PHONY : Deck.cpp.s
+
+LostAndFound.obj: LostAndFound.cpp.obj
+
+.PHONY : LostAndFound.obj
+
+# target to build an object file
+LostAndFound.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/LostAndFound.cpp.obj
+.PHONY : LostAndFound.cpp.obj
+
+LostAndFound.i: LostAndFound.cpp.i
+
+.PHONY : LostAndFound.i
+
+# target to preprocess a source file
+LostAndFound.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/LostAndFound.cpp.i
+.PHONY : LostAndFound.cpp.i
+
+LostAndFound.s: LostAndFound.cpp.s
+
+.PHONY : LostAndFound.s
+
+# target to generate assembly for a file
+LostAndFound.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/LostAndFound.cpp.s
+.PHONY : LostAndFound.cpp.s
+
+MegaDeck.obj: MegaDeck.cpp.obj
+
+.PHONY : MegaDeck.obj
+
+# target to build an object file
+MegaDeck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/MegaDeck.cpp.obj
+.PHONY : MegaDeck.cpp.obj
+
+MegaDeck.i: MegaDeck.cpp.i
+
+.PHONY : MegaDeck.i
+
+# target to preprocess a source file
+MegaDeck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/MegaDeck.cpp.i
+.PHONY : MegaDeck.cpp.i
+
+MegaDeck.s: MegaDeck.cpp.s
+
+.PHONY : MegaDeck.s
+
+# target to generate assembly for a file
+MegaDeck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/MegaDeck.cpp.s
+.PHONY : MegaDeck.cpp.s
+
+Player.obj: Player.cpp.obj
+
+.PHONY : Player.obj
+
+# target to build an object file
+Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Player.cpp.obj
+.PHONY : Player.cpp.obj
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
+WarPile.obj: WarPile.cpp.obj
+
+.PHONY : WarPile.obj
+
+# target to build an object file
+WarPile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/WarPile.cpp.obj
+.PHONY : WarPile.cpp.obj
+
+WarPile.i: WarPile.cpp.i
+
+.PHONY : WarPile.i
+
+# target to preprocess a source file
+WarPile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/WarPile.cpp.i
+.PHONY : WarPile.cpp.i
+
+WarPile.s: WarPile.cpp.s
+
+.PHONY : WarPile.s
+
+# target to generate assembly for a file
+WarPile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MegaWar.dir\build.make CMakeFiles/MegaWar.dir/WarPile.cpp.s
+.PHONY : WarPile.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +366,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MegaWar
+	@echo ... Card.obj
+	@echo ... Card.i
+	@echo ... Card.s
+	@echo ... CardPile.obj
+	@echo ... CardPile.i
+	@echo ... CardPile.s
+	@echo ... Deck.obj
+	@echo ... Deck.i
+	@echo ... Deck.s
+	@echo ... LostAndFound.obj
+	@echo ... LostAndFound.i
+	@echo ... LostAndFound.s
+	@echo ... MegaDeck.obj
+	@echo ... MegaDeck.i
+	@echo ... MegaDeck.s
+	@echo ... Player.obj
+	@echo ... Player.i
+	@echo ... Player.s
+	@echo ... WarPile.obj
+	@echo ... WarPile.i
+	@echo ... WarPile.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

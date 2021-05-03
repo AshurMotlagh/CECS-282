@@ -80,6 +80,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/Card.cpp">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/Card.h">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/CardPile.cpp">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/CardPile.h">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/Deck.cpp">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/Deck.h">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/LostAndFound.cpp">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/LostAndFound.h">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/MegaDeck.cpp">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/MegaDeck.h">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/Player.cpp">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/Player.h">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/WarPile.cpp">
+			<Option target="MegaWar"/>
+		</Unit>
+		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/WarPile.h">
+			<Option target="MegaWar"/>
+		</Unit>
 		<Unit filename="K:/Projects/Clion/CECS-282/Projects/MegaWar/main.cpp">
 			<Option target="MegaWar"/>
 		</Unit>
