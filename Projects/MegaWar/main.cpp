@@ -1,3 +1,8 @@
+// Ashur Motlagh
+// CECS 282-05
+// Prog 6 – MegaWar
+// 5/6/2021
+
 #include <iostream>
 #include "Card.h"
 #include "CardPile.h"
