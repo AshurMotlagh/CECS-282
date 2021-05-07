@@ -9,11 +9,7 @@
 class WarPile : public CardPile {
 
 public:
-    void addCard(Card card);
-    Card removeCard();
-    void display();
     int warPileCardsLeft();
-    int pileSize();
     Card deal();
 };
 

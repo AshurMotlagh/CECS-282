@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 
-enum suits {DIAMOND, HEART, SPADE, CLUB};
-enum ranks {ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
+enum suits {Diamond, Heart, Spade, Club};
+enum ranks {Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King};
 
 class Card {
 private:
@@ -15,9 +15,7 @@ public:
     Card();
     Card(ranks r, suits s);
     void display();
-    int cardCompare(Card card2);
     int getValue() const;
-
 };
 
 

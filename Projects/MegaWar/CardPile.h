@@ -11,12 +11,10 @@ class CardPile {
 protected:
     vector<Card> pile;
 
-public:
-    virtual void addCard(Card card) = 0;
-    virtual Card removeCard() = 0;
-    virtual void display() = 0;
-    virtual int pileSize() = 0;
+public:  // changed from a abstract base class to a normal one
+    void addCard(Card card);
+    Card removeCard();
+    void display();
+    int pileSize() ;
 };
-
-
 #endif //MEGAWAR_CARDPILE_H

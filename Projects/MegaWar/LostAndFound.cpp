@@ -1,5 +1,13 @@
-//
-// Created by ashur on 5/2/2021.
-//
-
 #include "LostAndFound.h"
+#include "CardPile.h"
+#include "Card.h"
+//#include "Deck.h"
+
+Card LostAndFound :: deal(){
+    return removeCard();
+}
+
+int LostAndFound :: LostAndFoundPileSize(){
+    return pileSize();
+}
+

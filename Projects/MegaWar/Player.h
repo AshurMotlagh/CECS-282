@@ -13,22 +13,17 @@ private:
     int won;
 
 public:
+    void display();
     Player(int num);
     void add(Card card);
-    void addCard(Card card);
     int cardsLeft();
     Card playerDeal();
-    Card removeCard();
-    void display();
     void displayStats();
     double Fierceness();
-    int playerHandSize();
     void battlePlayed();
     void battleWon();
     int getBattle() const;
     int getVictory() const;
-    int topCard();
-    int pileSize();
     int playerLeftToPlay();
     void addToBottom(Card card);
     int getPlayerPosition() const;

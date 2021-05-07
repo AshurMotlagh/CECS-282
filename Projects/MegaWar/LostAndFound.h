@@ -3,16 +3,11 @@
 
 #include <stdio.h>
 #include "CardPile.h"
+#include "Card.h"
 
-class LostAndFound {
+class LostAndFound : public CardPile{
 public:
-    void addCard(Card card);
-    Card removeCard();
-    void display();
     int LostAndFoundPileSize();
-    int pileSize();
     Card deal();
 };
-
-
 #endif //MEGAWAR_LOSTANDFOUND_H
