@@ -2,7 +2,6 @@
 #include <iostream>
 using namespace std;
 
-
 Card :: Card(){
     suit = Diamond;
     rank = Ace;
@@ -11,7 +10,6 @@ Card :: Card(){
 Card :: Card(ranks r, suits s){
     suit = s;
     rank = r;
-
 }
 
 int Card :: getValue() const{

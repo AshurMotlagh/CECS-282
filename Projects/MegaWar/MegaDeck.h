@@ -13,5 +13,4 @@ public:
     void shuffle();
     int megaDeckSize();
 };
-
 #endif //MEGAWAR_MEGADECK_H

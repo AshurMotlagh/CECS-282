@@ -12,8 +12,8 @@ protected:
     vector<Card> pile;
 
 public:  // changed from a abstract base class to a normal one
-    void addCard(Card card);
     Card removeCard();
+    void addCard(Card card);
     void display();
     int pileSize() ;
 };

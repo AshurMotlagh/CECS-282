@@ -1,11 +1,6 @@
-//
-// Created by ashur on 5/2/2021.
-//
-
 #include "WarPile.h"
 #include "CardPile.h"
 #include "Card.h"
-
 
 int WarPile :: warPileCardsLeft(){
     return pileSize();

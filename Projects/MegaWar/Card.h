@@ -10,13 +10,10 @@ class Card {
 private:
     suits suit;
     ranks rank;
-
 public:
     Card();
     Card(ranks r, suits s);
     void display();
     int getValue() const;
 };
-
-
 #endif //MEGAWAR_CARD_H

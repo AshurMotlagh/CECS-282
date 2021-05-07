@@ -11,5 +11,4 @@ public:
     Deck();
     Card deal();
 };
-
 #endif //MEGAWAR_DECK_H

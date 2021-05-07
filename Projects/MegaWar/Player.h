@@ -5,7 +5,6 @@
 #include "CardPile.h"
 #include "Card.h"
 
-
 class Player : public CardPile{
 private:
     int playerPosition;
@@ -13,21 +12,19 @@ private:
     int won;
 
 public:
-    void display();
     Player(int num);
-    void add(Card card);
-    int cardsLeft();
     Card playerDeal();
-    void displayStats();
-    double Fierceness();
+    void display();
+    void add(Card card);
     void battlePlayed();
     void battleWon();
+    void addToBottom(Card card);
+    void displayStats();
+    int cardsLeft();
     int getBattle() const;
     int getVictory() const;
     int playerLeftToPlay();
-    void addToBottom(Card card);
     int getPlayerPosition() const;
+    double Fierceness();
 };
-
-
 #endif //MEGAWAR_PLAYER_H
